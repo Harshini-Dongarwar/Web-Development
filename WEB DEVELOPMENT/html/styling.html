@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>styling selectors</title>
+</head>
+<style>
+    .container{
+        border: 2px solid red;
+        background-color: rgb(0, 255, 255);
+        padding: 34px;
+        margin:34px auto;
+        width: 666px;
+        
+
+
+    }
+    .btn{
+        background: crimson;
+        padding: 6px;
+        cursor:pointer;
+        border-radius: 67px;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        color: green;
+        background-color: white;
+    }
+    a:visited{
+        color:yellow;
+    }
+    a:active{
+        color:blue;
+    }
+    .container:hover{
+        background-color: yellow;
+    }
+</style>
+<body>
+    <div class="container" id="cont1">
+        <h3>
+            this is my heading
+        </h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum totam molestias rem repellendus mollitia animi maxime veritatis dolor dolorem a non corporis perspiciatis voluptatum minus fuga nam, qui ipsum. Nulla cumque qui laboriosam.
+        </p>
+        <a href="https://google.com" class="btn">
+            read more here
+        </a>
+        <button class="btn">
+            contact more 
+        </button>
+    </div>
+</body>
+</html>
