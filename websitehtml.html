@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="website/websitecss.css">
+<style>
+    body{
+        margin:0px;
+        padding:0px;
+        /*background-image: url('img/image3.jpg');*/
+        background-image: url('img/image4.jpg');
+        
+
+    }
+    .left{
+        
+        display:inline-block;
+        margin:20px;
+        
+        position: absolute;
+        top:0px;
+        left: 10px;
+
+    }
+    .right{
+        
+        display:inline-block;
+        position: absolute;
+        top:0px;
+        right:34px;
+        margin:20px;
+        
+    }
+    .mid{
+        border: 2px solid white;
+        display:block;
+        width:43%;
+        margin:20px auto;
+        
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+
+    }
+    .navbar li a{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover{
+        color: grey;
+        text-decoration: underline;
+        padding: 34px 23px;
+    }
+    .left img{
+        width: 90px;
+    }
+    .text{
+        color:white;
+        font-size: xx-small;
+        font-family:'Times New Roman', Times, serif;
+        text-align: center;
+        line-height: 19px;
+
+    }
+    .btn{
+        margin:0px 9px;
+        background-color:white;
+        font-family:'Times New Roman', Times, serif;
+        font-size:medium;
+        padding:4px 14px;
+        border:2px solid grey;
+        border-radius: 10px;
+        cursor:pointer;
+    }
+    .btn:hover{
+        background-color: gray;
+        
+    }
+    .container{
+        border: 2px solid white;
+        margin: 206px 830px;
+        padding: 75px;
+        width:30%;
+        color: white;
+
+    }
+    .formgroup input{
+        text-align: center;
+        display:block;
+        width: 300px;
+        margin: 3px auto;
+        padding: 5px;
+        border:2px solid black;
+        border-radius: 10px;
+        font-size: 22px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container .btn{
+        display:block;
+        width:23%;
+        margin:auto;
+        border-radius: 10px;
+        font-size: 22px;
+    }
+
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+          <img src="https://toppng.com/uploads/preview/badminton-logo-11563202861okbeinj5mi.png">
+          <div class="text">
+            SMASH ACE ACADEMY
+          </div>
+
+        </div>
+        <div class="right">
+<button class="btn">
+    Pay & Play
+</button>
+
+        </div>
+        <div class="mid">
+
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Achievements </a></li>
+                <li><a href="#"> Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+       <h1>
+        COACHING FOR PEAK PERFORMANCE
+       </h1>
+       
+       <form action="noaction.php">
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter Your Name">
+
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter Your Age">
+
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter Your Gender">
+
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter Your Contact">
+
+        </div>
+        <button class="btn">Submit</button>
+
+       </form>
+    </div>
+
+    
+</body>
+</html>
